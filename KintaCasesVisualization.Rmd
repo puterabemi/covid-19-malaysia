@@ -19,7 +19,7 @@ The original reason for this visualization is for prepare manuscript for researc
 
 ```{r, message=FALSE}
 library(pacman)
-p_load(readr, tidyverse, lubridate,zoo)
+p_load(tidyverse, lubridate,zoo)
 
 covid_19_my <- read_csv("covid-19_my.csv")
 covid_19_my_state <- read_csv("covid-19_my_state.csv")
